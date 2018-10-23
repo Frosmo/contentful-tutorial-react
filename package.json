@@ -5,7 +5,6 @@
   "main": "webpack.config.js",
   "scripts": {
     "start": "npm run watch & fproxy server start",
-    "start:localhost": "npm run watch & fproxy server start & http-server -S",
     "build": "webpack --config webpack.config.js",
     "build:prod": "NODE_ENV=production webpack -p --config webpack.config.js",
     "watch": "webpack --watch --config webpack.config.js",

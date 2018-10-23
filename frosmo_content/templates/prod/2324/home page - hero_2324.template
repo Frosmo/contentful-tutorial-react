@@ -1,0 +1,9 @@
+<div id="contentful-person" style="background-color:#e68900">
+    Contentful person - template:
+    <h1 id="name"></h1>
+    <h3 id="title"></h3>
+    <div id="bio"></div>
+</div>
+<script type="text/javascript">
+/* fproxy_asset_name=fproxy_script_0|frosmo_content/templates/prod/2324/home page - hero_2324.0.js */
+</script>

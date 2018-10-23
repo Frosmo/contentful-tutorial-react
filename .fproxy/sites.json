@@ -1,0 +1,9 @@
+{
+    "frosmo_content": [
+        {
+            "origin": "contentful_tutorial_frosmo",
+            "environment": "prod",
+            "region": "eu"
+        }
+    ]
+}

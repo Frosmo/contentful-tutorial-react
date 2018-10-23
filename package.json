@@ -1,0 +1,38 @@
+{
+  "name": "contentful-tutorial-fproxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "npm run watch & fproxy server start",
+    "start:localhost": "npm run watch & fproxy server start & http-server -S",
+    "build": "webpack --config webpack.config.js",
+    "build:prod": "NODE_ENV=production webpack -p --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js",
+    "watch:prod": "NODE_ENV=production webpack -p --watch --config webpack.config.js"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-jsx-pragmatic": "^1.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chalk": "^2.4.1",
+    "console.table": "^0.10.0",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "glob": "^7.1.3",
+    "imports-loader": "^0.8.0",
+    "postcss-loader": "^2.1.4",
+    "postcss-preset-env": "^5.1.0",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^3.1.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

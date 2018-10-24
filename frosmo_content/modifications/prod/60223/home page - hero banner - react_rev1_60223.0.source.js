@@ -18,6 +18,5 @@ client.getEntries({
     .then(renderElement);
 
 function renderElement(entries) {
-    console.log('render', entries.items[0].fields)
     render(<Hero data={entries.items[0].fields} />, element);
 }

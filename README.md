@@ -12,6 +12,13 @@ Initialize FProxy (follow the instructions to set it up correctly):
 fproxy init
 ```
 
+Copy `.contentful.json.sample` and add Contentful spaceId & token to `.contentful.json`
+```
+cp .contentful.json.sample .contentful.json
+```
+
+
+
 ## Important files (directory structure)
 All examples of Frosmo modifications & templates can be found within frosmo_content. For you modification IDs & file names will be different.
 ```
